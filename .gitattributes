@@ -1,2 +1,27 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+import SwiftUI
+import CoreData
+
+struct ContentView: View {
+    
+    var body: some View {
+        TabView {
+            Text("Home Screen")
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                    
+                }
+                    
+                    
+                    
+                    Text("settings")
+                .tabItem {
+                    Label("Settings", systemImage: "gearshape")
+                    
+                }
+                            
+                                  Label("Settings", systemImage: "printer.filled.and.paper")
+                                .tabItem {
+                                    Label("Settin8s", systemImage: "printer.filled.and.paper")
+                                }
+                            
+                            
